@@ -1,0 +1,140 @@
+.cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.cards-div{
+    width: 300px;
+    height: 300px;
+    /* background-color: rgba(237, 233, 233, 0.934); */
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+
+    
+}
+
+
+
+.image-div{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+
+.item_img{
+    width: 30%;
+    height: 100%;
+     
+}
+
+.card-text{
+     font-size: medium;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     color: rgb(40, 40, 40);
+}
+
+
+/* Start of cardDetails page... */
+
+
+.cardDetails-page{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+
+ 
+.cardImage-div{
+    width: 300px;
+    height: 300px;
+}
+
+.cardImage-div > img{
+    width: 50%;
+    margin: 2px;
+    padding: 2px;
+}
+ 
+
+
+.cardDetails-section2{
+    font-size: medium;
+    margin: 20px;
+
+}
+
+/* End of cardDetails page... */
+
+.atag{
+    text-decoration: none;
+    color: black;
+}
+
+/* Shimmer styles */
+/* .cards-div > h5{
+    background-color: rgb(19, 20, 19);
+    width: 90%;
+    height: 3px;
+    border-radius: 4px;
+    
+} */
+
+.nav-container{
+    display:  flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: bisque;
+    /* align-items: baseline; */
+    /* border: 1px solid black; */
+    
+
+}
+
+.nav-container > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-container > ul > li{
+    margin: 5px;
+    padding: 0px;
+    font-size: large;
+}
+
+.logo{
+    width: 50px;
+    margin-top: 5px;
+
+}
+
+.footer-container{
+    background-color: rgb(9, 54, 118);
+    position:sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+
+/* Cart designes */
+
+.Add-to-Cart-btn{
+    font-size: x-large;
+    font-weight: bold;
+    background-color:rgb(77, 210, 10) ;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+}
