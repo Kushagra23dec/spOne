@@ -11,11 +11,11 @@ import CardDetails from "./components/CardDetails";
 import Error from "./components/Error";
 const AppLayout = ()=>{
     return(
-        <>
+        <div className="flex flex-col h-full ">
         <Nav />
         <Outlet/>
         <Footer /> 
-        </>
+        </div>
     );
 }
 

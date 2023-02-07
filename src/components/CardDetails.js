@@ -22,21 +22,24 @@ const CardDetails = ()=>{
        <Shimmer />
     :(
         
-        <div className="cardDetails-page">
-          <div className="cardImage-div">
-          <img src={data?.image} />
-           </div>
+    
+        <div className="flex p-5 gap-5 flex-wrap grow  ">
+          
+          <div className="w-48  ">
+          <img className="w-48 hover:w-80" src={data?.image} />
 
-            <div className="cardDetails-section2">
-            <h1>{data?.title}</h1>
-            <h1 >Price: ₹{data?.price}</h1>
-            <h1> Rating: {data?.rating?.rate} Stars</h1>
-            <h1> Hurry! only {data?.rating?.count} remaining</h1>
-            <button className="Add-to-Cart-btn">Add to cart</button>
+          </div>
+        
+            <div className="font-semibold text-xl text-gray-900">
+            <h1 className="font-bold text-3xl mb-3" >{data?.title}</h1>
+            <h1 className="mb-3">Price: ₹{data?.price}</h1>
+            <h1 className="mb-3"> Rating: {data?.rating?.rate} Stars</h1>
+            <h1 className="mb-3"> Hurry! only {data?.rating?.count} remaining</h1>
+            <button className="bg-gradient-to-r from-green-500 to-blue-500  text-2xl text-white font-semibold rounded-md px-2 hover:from-orange-500 hover:to-yellow-500">Add to cart</button>
             </div>
 
         </div>
-
+        
         
     )
 }

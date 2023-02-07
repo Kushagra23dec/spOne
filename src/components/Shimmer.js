@@ -3,8 +3,8 @@ import Cards from "./Cards";
 
 const Shimmer = ()=>{
     return(
-        <div className="cards-container">
-            {Array(8).fill("").map((e, index)=><Cards key={index}/>)}
+        <div className="flex grow flex-wrap">
+            {Array(10).fill("").map((e, index)=><Cards key={index}/>)}
         </div>
     )
 }
